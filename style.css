@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500;700&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.contenedor
+{
+background-color: #212026;
+height: 100vh;
+width: 100%;
+display: flex;
+}
+
+.primario{
+    width: 30%;
+    height:200vh;
+    background-color: #212026;
+    display: flex;
+    flex-direction: column;
+    box-shadow:#212026,2,2,2,2 ;
+
+}
+.secundario{
+    background-color: #ffffff;
+    width: 70%;
+    height: 100vh;
+}
+
+.primario img
+{
+  width: 100%;
+  height: 400px ;
+}
+.primario h3{
+    margin-top: 50px;
+    margin-left: 15%;
+    color: #ffffff;
+    border-bottom: #7c7155 solid 2px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+.textP{
+    line-height:20px ;
+    margin-top: 20px;
+    color:#ffffff; 
+    width: 60%;
+    margin-left: 25%; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+   
+}
+.primarioExterno{
+    margin-top: 50px;
+    
+}
+
+.primarioInterno{
+    background-color:  #2a292f;
+    display: flex;
+    flex-direction: row;
+    
+    
+
+}
+.primarioInterno div{
+    background-color: #fcca05;
+    width: 30%;
+    height:auto ;
+
+}
+.textPrimarioInterno{
+   width: 70%;
+   color: #ffffff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.camposInternos{
+    color: #ffffff;
+    padding-left: 30%;
+    padding-top: 4px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+#InterFinal{
+    margin-bottom: 10%;
+}
+.ContenedorNombre{
+    margin-top: 10%;
+    background-color: #fcca05;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.SubContenedorNombre{
+    display: flex;
+    flex-direction: row;
+}
+
+#nombre {
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+
+#apellido{
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+    font-weight: 100;
+    
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+    margin-top: 0;
+  
+}
+.ContenedorNombrePrimario{
+    margin-left: 10%;
+}
+
+.ContenedorSecundarioInf{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.SubtitulosSecundarios{
+    font-family: 'Roboto', sans-serif;
+    border-bottom: #2a292f solid 1px;
+    padding-bottom: 15px;
+
+}
+
+.TextoSecundario{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.SubSubTitulosSecundario{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ContenedorExperiencia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ContenedorExperienciaPrimario{
+    margin-right: 25%;
+    width: 30px;
+    margin-top: 1%;
+}
+
+.SubSubTitulosSecundarioExp{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: 'Roboto', sans-serif;
+    width: 200px;
+}
+
+#Exp1{
+    margin-top: 1vh;
+    margin-bottom: 41vh;
+}
+#Exp2{
+   
+    margin-bottom: 22vh;
+}
+.ContenedorHabilidades{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 1%;
+    flex-flow:wrap;
+}
+
+.habilidad{
+    font-family: 'Roboto', sans-serif;
+    width: 50px;
+    margin-bottom: 2px;
+}
+.rayaEvaluativa{
+    background: rgba(0, 0, 0, 0.2);
+    height: 3px;
+    width: 100%;
+}
+.SubHabilidad{
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100px;
+}
+
+.rayaEvaluativa{
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+.rayaEvaluativaSuperiorC{
+    background-color: black;
+    height: 3px;
+    width: 70%;
+    border-radius: 3px;
+}
+.rayaEvaluativaSuperiorNet{
+    background-color: black;
+    height: 3px;
+    width: 60%;
+    border-radius: 3px;
+}
+.rayaEvaluativaSuperiorSer{
+    background-color: black;
+    height: 3px;
+    width: 80%;
+    border-radius: 3px;
+}
+.rayaEvaluativaSuperiorAng{
+    background-color: black;
+    height: 3px;
+    width: 40%;
+    border-radius: 3px;
+}
+.rayaEvaluativaSuperiorJava{
+    background-color: black;
+    height: 3px;
+    width: 80%;
+    border-radius: 3px;
+}
+.rayaEvaluativaSuperiorTyp{
+    background-color: black;
+    height: 3px;
+    width: 40%;
+    border-radius: 3px;
+}
+.rayaEvaluativaSuperiorOra{
+    background-color: black;
+    height: 3px;
+    width: 70%;
+    border-radius: 3px;
+}
+.rayaEvaluativaSuperiorFr{
+    background-color: black;
+    height: 3px;
+    width: 60%;
+    border-radius: 3px;
+}
